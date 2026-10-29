@@ -1,5 +1,5 @@
 ## Secure-CRM-Fullstack
-**A fullstack web application using React, FastAPI, and MariaDB. Includes skin Management, RBAC, and additional security perimeters like maker-checker approval workflow.**
+**A fullstack web application using React, FastAPI, and MariaDB. Includes Session Management, RBAC, and additional security perimeters like maker-checker approval workflow.**
 
 ```
 secure-customer-system/
@@ -29,5 +29,6 @@ secure-customer-system/
 ├── docker-compose.yml      # Orchestrates Backend, Frontend, and MariaDB
 ├── .gitignore              # Ignore node_modules, __pycache__, .env
 └── README.md               # Project documentation
+```
 
-
+<img width="3067" height="8192" alt="mermaid js-2026-10-29-065008" src="https://github.com/user-attachments/assets/dde4a1df-0d46-475f-b1aa-bac3125f0d7b" />
