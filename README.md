@@ -31,5 +31,5 @@ secure-customer-system/
 └── README.md               # Project documentation
 ```
 
-<img width="1340" height="2030" alt="Maker-checker-approval-root-2" src="https://github.com/user-attachments/assets/c0c307e3-9ffe-4f55-915d-645a5002b27c" />
+<img width="2009" height="8192" alt="mermaid js-2026-10-29-122529" src="https://github.com/user-attachments/assets/b75fea7f-3bd4-4cf6-9ade-fc6ebcebf25f" />
 
