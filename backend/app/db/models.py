@@ -4,7 +4,7 @@
 
 import sys
 import os
-import math
+import pathlib
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.net import declarative_base
 
