@@ -1,3 +1,7 @@
+# Copyright (c) 2026. Jac LL
+# ALL Rights Reserved.
+# All unauthorized use or distribution is prohibited.
+
 from fastapi import FastAPI, DEPENDS, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from jose import JWTError, jwt
