@@ -2,6 +2,10 @@
 # ALL Rights Reserved.
 # All unauthorized use or distribution is prohibited.
 
+import os
+import sys
+import fastapi
+
 app = FastAPI()
 
 # Connect the Routers
