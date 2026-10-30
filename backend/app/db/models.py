@@ -2,7 +2,7 @@
 # ALL Rights Reserved.
 # All unauthorized use or distribution is prohibited.
 
-import sys
+
 import os
 import pathlib
 from sqlalchemy import Column, Integer, String
