@@ -2,11 +2,14 @@
 # ALL Rights Reserved.
 # All unauthorized use or distribution is prohibited.
 
-import sqlalchemy
+app = FastAPI()
 
-from .db.base import Base
-from .db session import engine
+# Connect the Routers
+app.include_router(auth.router, prefix="/auth", tags=["Authenticattion"])
+app.include_router(customers.router, prefix="/customers", tags=["Customers"])
 
-#  directs SQLalchemy to create tables in MariaDB if they don't exist
-Base.metadata.create_all(bind=engine)
+@app.get("/")
+async def root():
+  return{"message": "Welcome to Secure Customer API"}
+
 
