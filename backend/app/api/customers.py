@@ -1,13 +1,12 @@
-
-
- 
+# Copyright (c) 2026. Jac LL
+# ALL Rights Reserved.
+# All unauthorized use or distribution is prohibited.
 
 from FastAPI import APIRouter, Depends, HTTPExcrption
 from ..core.security import role_required, get_current_user
 from ..db import models, session  
 
 # Rout to amalgamate customer UI to backend / server logic
-
 router = APIRouter()
 
 # ---- MAKER ACTIONS (Create/Modify) ----
