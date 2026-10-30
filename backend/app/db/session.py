@@ -1,3 +1,8 @@
+# Copyright (c) 2026. Jac LL
+# ALL Rights Reserved.
+# All unauthorized use or distribution is prohibited.
+
+
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 import os
