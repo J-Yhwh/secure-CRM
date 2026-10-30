@@ -2,9 +2,10 @@
 # ALL Rights Reserved.
 # All unauthorized use or distribution is prohibited.
 
+import uvicorn
 import os
-import sys
-import fastapi
+from fastapi import FastAPI
+from fastapi middleware.cors import CORSMiddleware 
 
 app = FastAPI()
 
