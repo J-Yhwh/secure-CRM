@@ -1,1 +1,20 @@
+# Web Framework
+fastAPI
+uvicorn [standard]
+
+# Database
+sqlalchemy
+pymysql
+cryptography
+
+# Security & Authentication
+python-jose[cryptography]
+passlib[bcrypt]
+python multipart
+
+# Environment & Utility
+python dotenv
+pydantic
+pedantic-settings
+
 
