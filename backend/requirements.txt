@@ -13,7 +13,7 @@ passlib[bcrypt]
 python multipart
 
 # Environment & Utility
-python dotenv
+python-dotenv
 pydantic
 pedantic-settings
 
