@@ -1,3 +1,7 @@
+# Copyright (c) 2026. Jac LL
+# ALL Rights Reserved.
+# All unauthorized use or distribution is prohibited.
+
 import sqlalchemy
 
 from .db.base import Base
