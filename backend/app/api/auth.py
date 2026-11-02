@@ -13,7 +13,7 @@ from datetime import datetime, timedelta
 SECRET_KEY = "your-secret-key"
 ALGORITHM = HS256
 ACCESS_TOKEN_EXPIRE_MINUTES = 15
-REFESH_TOKEN_EMPIRE_DAYS = 7
+REFRESH_TOKEN_EMPIRE_DAYS = 7
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated='auto')
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
@@ -30,8 +30,8 @@ def verify_Password(plain, hashed):
 
 def create_token(data: dict, expires_delta: timedelta):
   to_encode = data.copy()
-  expire = datetime.utcnow() + expires delta
-  return jwt.code(to_encode, SECRET KEY, algorithm=ALGORITHM)
+  expire = datetime.utcnow() + expires_delta
+  return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
 
 # ----Role Dependency ---
 def role_required(allowed_roles: list):
