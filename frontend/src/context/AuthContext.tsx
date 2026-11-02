@@ -1,4 +1,6 @@
-
+// Copyright (c) 2026. Jac LL
+// ALL Rights Reserved.
+// All unauthorized use or distribution is prohibited.
 
 
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
