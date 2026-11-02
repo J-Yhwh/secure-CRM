@@ -2,7 +2,7 @@
 # ALL Rights Reserved.
 # All unauthorized use or distribution is prohibited.
 
-from FastAPI import APIRouter, Depends, HTTPExcrption
+from fastapi import APIRouter, Depends, HTTPException
 from ..core.security import role_required, get_current_user
 from ..db import models, session  
 
