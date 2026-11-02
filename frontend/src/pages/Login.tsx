@@ -1,4 +1,6 @@
-
+// Copyright (c) 2026. Jac LL
+// ALL Rights Reserved.
+// All unauthorized use or distribution is prohibited.
 
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
