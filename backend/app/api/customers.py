@@ -17,6 +17,11 @@ async def submit_customer_request, payload: Customer_schema, user=Depends(get_cu
 
 # ---- CHECKER ACTIONS : APPROVING/REJECTING ----
 @router.post("/requests/{request_id}/approve", dependencies=[Depends(role_required(["Checker", "Admin"]))])
-async def approve_custoemr_request(request_id: int, user=Depends(get_current_user): 
-  return {"message": "Request rejected"}
+async def approve_customer_request(request_id: int, user=Depends(get_current_user)): 
+    if request_id != checker_id:
+      return {"message": "Request approved"}
+
+async def reject_customer_request(request_id: int, user=Depends(get_current_user)): 
+    if request_id == checker_id:
+      return {"message": "Request rejected"}
  
