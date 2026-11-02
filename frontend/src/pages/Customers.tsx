@@ -1,3 +1,7 @@
+// Copyright (c) 2026. Jac LL
+// ALL Rights Reserved.
+// All unauthorized use or distribution is prohibited.
+
 
 import { useEffect, useState } from 'react';
 import { api } from '../services/api';
